@@ -1,0 +1,127 @@
+.title{
+    h1,h2,h3,h4,h5,h6{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    background: #FFB400;
+    margin-bottom: 35px;
+
+    &__wrapper{
+     
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        padding: 93px 116px 61px 174px;
+        background: url('../../img/title-img.png');
+        background-repeat: no-repeat;
+        .main__title{
+            position: relative; 
+           margin-bottom: 33px;
+         
+            h1{
+                padding-top: 16px;
+                margin-left: 33px;
+                font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 70px;
+color: #FFFFFF;
+            }
+        }
+        .main__subtitle{
+            max-width:758px;;
+            p{
+                font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+            }
+        }
+       .main__btn{
+        margin-top: 54px;
+        border: none;
+        background: #FFB400;
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+        padding: 19px 51.5px;
+       }
+    }
+    &__right{
+        padding: 30px 58px;
+        padding-left: 31px;
+
+        .services__title{
+           margin-bottom: 11px;
+            h3{
+                  font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 50px;
+color: #2A2A2A;
+            }
+          
+        }
+        .services__item{
+            display: flex;
+            align-items: center;
+            &-title{
+                margin-top: 0px;
+               
+                h6{
+                     font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+
+line-height: 50px;
+color: #2A2A2A;
+                }
+               
+
+            }
+            &-subtitle{
+                width: 237px;
+                p{
+                    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+                }
+            }
+            .services__text{
+               
+                margin-left: 13px;
+            }
+        }
+    }
+}
+.main__title::before{
+   
+   
+  
+     
+        content: "";
+        display: inline-block;
+        position: absolute;
+        height: 104px;
+        width: 10px;
+        background: #FFB400;
+}
