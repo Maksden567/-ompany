@@ -7,5 +7,12 @@
 // подключения компонентов страницы
 @import "./components/header";
 @import "./components/title";
+@import "./components/projects";
+@import "./components/client";
 @import "./components/footer";
 // тестовые стили, удалите их
+
+
+.page__body{
+    background: #F7F7F7;
+}
