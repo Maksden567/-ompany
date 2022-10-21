@@ -135,7 +135,7 @@ color: #666666;
         max-width: 545px;
         margin-bottom: 38px;
     }
-    .tabs__button{
+    .tabs__btn{
         position: absolute;
         bottom: 0;
     }
@@ -199,5 +199,8 @@ color: #666666;
     }
     .tabs__item-main {
         margin-bottom: 15px;
+    }
+    .tabs__left {
+        margin-right: 0px;
     }
 }
