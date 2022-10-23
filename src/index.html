@@ -8,7 +8,27 @@
     @include('partials/header.html')
     @include('partials/title.html')
     @include('partials/get.html')
-    @include('partials/projects.html')
+    @include('partials/projects.html',{
+      "title":"Latest Projects",
+      "obj":{
+        "img":"../img/projects-item1.png",
+        "title":"Project Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. Cras tristique viverra gravida et sit egestas.",
+        "btn":"VIEW PROJECT",
+      },
+      "obj2":{
+        "img":"../img/projects-item2.png",
+        "title":"Project Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. Cras tristique viverra gravida et sit egestas.",
+        "btn":"VIEW PROJECT",
+      },
+      "obj3":{
+        "img":"../img/projects-item3.png",
+        "title":"Project Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. Cras tristique viverra gravida et sit egestas.",
+        "btn":"VIEW PROJECT",
+      }
+    })
     @include('partials/tabs.html')
     @include('partials/client.html')
     @include('partials/footer.html')
