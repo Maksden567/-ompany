@@ -1,0 +1,421 @@
+.experience {
+    margin-bottom: 50px;
+    &__text {
+        @include flex-all-sb;
+        max-width: 1011px;
+
+        margin-left: 126px;
+        padding-bottom: 34px;
+
+    }
+
+    &__title {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0;
+        color: #2A2A2A;
+    }
+
+    &__btn {
+        width: 230px;
+        height: 65px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        color: #FFB400;
+        border: 5px solid #FFB400;
+    }
+
+    &__wrapper {
+        @include flex;
+    }
+}
+
+.experience__left {
+    max-width: 440px;
+    height: 730px;
+background: #2A2A2A;
+padding-top: 75px;
+padding-left: 37px;
+padding-right: 37px;
+    &-title {
+        width: 350px;
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+color: #FFFFFF;
+margin: 0;
+margin-bottom: 38px;
+    }
+    &-subtitle{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.04em;
+color: #9e9e9e;
+width: 366px;
+margin-top: 62px;
+    }
+    &-btn{
+        width: 210px;
+height: 54px;
+border: 5px solid #FFB400;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.1em;
+background:none;
+margin-top: 38px;
+color: #FFB400;
+    }
+    .line {
+        width: 48px;
+        border: 5px solid #FFB400;
+    }
+}
+.experience__right{
+width: 100%;
+}
+.experience__right-inner{
+ height: 600px;
+ max-width: 1000px;
+    video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.experience__bottom {
+    &-inner {
+        @include flex;
+        width: 100%;
+       
+    }
+
+    &-item {
+        width: 50%;
+        height: 130px;
+        background: #FFB400;
+        margin-top: 0px;
+        padding-top: 17px;
+        padding-left: 24px;
+    }
+
+    &-bg {
+       padding: 0;
+       @include flex-all-center;
+       background: #FFFFFF;
+    }
+    &-btn{
+        width: 245px;
+        height: 56px;
+        font-family: 'Rubik';
+        background: none;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.1em;
+color: #1F1F1F;
+        border: 4px solid #1F1F1F;
+    }
+
+    &-text {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 130px;
+    }
+
+    &-title {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 25px;
+        color: #000000;
+    }
+
+    &-subtitle {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 50px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        
+    }
+
+    &-color {
+        color: #FFFFFF;
+    }
+}
+@media screen and (max-width:1100px) {
+    .get__left-inner {
+            padding-left: 70px;
+            padding-top: 116px;
+        }
+        .experience__right-inner video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+}
+@media screen and (max-width:1000px) {
+    .get__left-inner {
+            padding-left: 50px;
+            padding-top: 90px;
+        }
+}
+@media screen and (max-width:990px) {
+    .experience__left-subtitle {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 27px;
+        letter-spacing: 0.04em;
+        color: #666666;
+        max-width: 350px;
+        margin: 0;
+    }
+    .experience__left-btn {
+        width: 170px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:930px) {
+    .experience__bottom-title {
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .experience__bottom-subtitle {
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 50px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .experience__bottom-item {
+        width: 50%;
+        height: 100px;
+        background: #FFB400;
+        margin-top: 0px;
+        padding-top: 17px;
+        padding-left: 24px;
+    }
+    .experience__bottom-bg {
+        width: 50%;
+        height: 100px;
+        background: #ffffff;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .experience__right-inner video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .experience__left {
+        max-width: 440px;
+        height: 700px;
+        background: #2A2A2A;
+        padding-top: 75px;
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+}
+@media screen and (max-width:900px) {
+    .experience__wrapper{
+        @include flex;
+        flex-direction: column;
+       
+    }
+    .experience__left {
+        @include flex-v-center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .experience__left {
+        max-width: 100%;
+        height: 530px;
+        background: #2A2A2A;
+        padding-top: 75px;
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+    .experience__left-title {
+        width: 562px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 38px;
+        text-align: center;
+    }
+    .experience__left-subtitle{
+    width: 483px;
+    margin-top: 20px;
+    max-width: 700px;
+    text-align: center;
+    }
+}
+@media screen and (max-width:550px) {
+    .experience__bottom-btn {
+        width: 188px;
+        height: 56px;
+        font-family: "Rubik";
+        background: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        color: #1F1F1F;
+        border: 4px solid #1F1F1F;
+    }
+    .experience__left-subtitle{
+        width: 380px;
+        margin-top: 20px;
+        max-width: 700px;
+        text-align: center;
+        }
+        .experience__left-title {
+            width: 380px;
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+            color: #FFFFFF;
+            margin: 0;
+            margin-bottom: 38px;
+            text-align: center;
+        }
+}
+@media screen and (max-width:425px) {
+    .experience__bottom-title {
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .experience__bottom-subtitle {
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 50px;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+    .experience__bottom-btn {
+        width: 151px;
+        height: 44px;
+        font-family: "Rubik";
+        background: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 9px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        color: #1F1F1F;
+        border: 4px solid #1F1F1F;
+    }
+    .experience__bottom-item {
+        width: 50%;
+        height: 100px;
+        background: #FFB400;
+        margin-top: 0px;
+        padding-top: 19px;
+        padding-left: 14px;
+    }
+    .experience__bottom-bg {
+        width: 50%;
+        height: 100px;
+        background: #ffffff;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width:375px) {
+    .experience__bottom-title {
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .experience__bottom-btn {
+        width: 133px;
+        height: 44px;
+        font-family: "Rubik";
+        background: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        color: #1F1F1F;
+        border: 4px solid #1F1F1F;
+    }
+    .experience__left-title {
+        width: 316px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 49px;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 38px;
+        text-align: center;
+    }
+    .experience__left-subtitle {
+        width: 300px;
+       font-size: 13px;
+    }
+}
