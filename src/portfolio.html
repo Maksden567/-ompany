@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__portfolio">
+  <div class="site-container">
+    @include('partials/header.html')
+    @include('partials/title2.html',{
+      "title":"Our Construction Projects",
+      "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. ",
+      "style":"display:none"
+    })
+    <div class="portfolio__items">
+      @include('partials/projects.html',{
+        "title":"Related Projects",
+        "obj":{
+          "img":"../img/portfilio__img1.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"LEARN MORE",
+        },
+        "obj2":{
+          "img":"../img/project__img2.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum.",
+          "btn":"LEARN MORE",
+        },
+        "obj3":{
+          "img":"../img/projects-item2.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"VIEW PROJECT",
+        }
+      })
+      @include('partials/projects.html',{
+        "title":"Related Projects",
+        "obj":{
+          "img":"../img/projects-item1.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"LEARN MORE",
+        },
+        "obj2":{
+          "img":"../img/projects-item3.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"LEARN MORE",
+        },
+        "obj3":{
+          "img":"../img/project__img3.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"VIEW PROJECT",
+        }
+      })
+      @include('partials/projects.html',{
+        "title":"Related Projects",
+        "obj":{
+          "img":"../img/portfolio__img2.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"LEARN MORE",
+        },
+        "obj2":{
+          "img":"../img/portfolio__img3.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"LEARN MORE",
+        },
+        "obj3":{
+          "img":"../img/portfolio__img4.png",
+          "title":"Service Title",
+          "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+          "btn":"VIEW PROJECT",
+        }
+      })
+    </div>
+    <div class="portfolio__text">
+      <h2>Have a Project in Mind?Let’s Get Building!</h2>
+    </div>
+    @include('partials/footer.html')
+
+ 
+
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

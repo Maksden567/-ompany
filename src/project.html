@@ -6,7 +6,11 @@
 <body class="page__project">
   <div class="site-container">
     @include('partials/header.html')
-    @include('partials/title2.html')
+    @include('partials/title2.html',{
+      "title":"Monarch HQ Project",
+      "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut.",
+      "style":"display:block"
+    })
     @include('partials/projects.html',{
       "title":"Related Projects",
       "obj":{
