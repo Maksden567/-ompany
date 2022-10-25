@@ -6,7 +6,27 @@
 <body class="page__body">
   <div class="site-container">
     @include('partials/header.html')
-    @include('partials/title.html')
+    @include('partials/title.html',{
+      "title":"Construction",
+  "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. Mi nibh amet viverra id aliquet neque odio.",
+  "btn":"VIEW OUR WORK",
+  "left-title":"Our Services",
+  "item1":{
+      "title":"Building Construction",
+      "subtitle":"Lorem ipsum dolor sit consectetur adipiscing elit."
+  },
+  "item2":{
+      "title":"Foundation Work",
+      "subtitle":"Lorem ipsum dolor sit consectetur adipiscing elit."
+  },
+  "item3":{
+      "title":"Site Management",
+      "subtitle":"Lorem ipsum dolor sit consectetur adipiscing elit."
+  },
+  "style":"display:none"
+  }
+  
+  )
     @include('partials/get.html')
     @include('partials/projects.html',{
       "title":"Latest Projects",
@@ -30,10 +50,14 @@
       }
     })
     @include('partials/experience.html')
-    @include('partials/tabs.html')
+    @include('partials/tabs.html',{
+      "title":"Let’s Build Something Together.",
+        "btn":"  GET IN TOUCH ",
+    })
     @include('partials/client.html')
     @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример include -->
+    <!-- @include('html/h1.html') пример includdede -->
+    <!--  -->
   </div>
 </body>
 
