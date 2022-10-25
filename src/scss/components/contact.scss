@@ -1,6 +1,84 @@
 .page__contact{
+    background: #F7F7F7;
     .services__image{
         display: none;
+    }
+    .tabs__left{
+        width: 579px;
+    }
+    .tabs__button{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.1em;
+
+color: #2A2A2A;
+
+        padding: 12px 43px;
+        border: 4px solid #2A2A2A;
+    }
+    .tabs__wrapper {
+        padding: 0 9px;;
+    }
+    .tabs__btn{
+        margin-top: 26px;
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    #textarea-contact{
+        padding-left: 18px;
+        width: 536px;
+        height: 148px;
+        border: none;
+        outline: none;
+                }
+                #textarea-contact::placeholder{
+                    font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 27px;
+            letter-spacing: 0.04em;
+            color: #666666;
+            padding-top: 13px;
+                }
+                .tabs__left{
+                    margin-right: 76px;
+                }
+    .tabs__input{
+        margin-bottom: 24px;
+        max-width: 579px;
+       
+        input{
+            padding-left: 18px;
+            width: 100%;
+            background: #FFFFFF;
+            font-family: 'Open Sans';
+            border: none;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.04em;
+color: #666666;
+outline: none;
+height: 53px;
+        }
+    }
+    input::placeholder{
+       
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.04em;
+color: #666666;
     }
     .title__right{
         width: 438px;
@@ -104,6 +182,9 @@ background:none;
         flex-direction: column;
         margin-right: 40px;
     }
+    .page__contact .tabs__btn{
+        justify-content: center;
+    }
     .title__right .services__item-title h6 {
      line-height: 30px;
     }
@@ -123,9 +204,21 @@ background:none;
         padding: 30px 58px;
         padding-left: 58px;
     }
+
+    .page__contact .tabs__left{
+        margin-right: 0;
+    }
+    .page__contact .tabs__inputs{
+        margin-bottom: 20px;
+    }
+  
+  
+
+
     .contact__tell {
         padding: 58px 60px;
     }
+
 }
 @media screen and (max-width:820px) {
     .services__item{
@@ -134,6 +227,20 @@ background:none;
    .page__contact .title__left {
     padding: 93px 83px 61px 30px;
 }
+
+.page__contact .tabs__input {
+    margin-bottom: 24px;
+    width: 353px;
+}
+.page__contact .tabs__inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page__contact #textarea-contact{
+    width: 353px;
+}
+
 .contact__tell-subtitle {
     font-family: "Rubik";
     font-style: normal;
@@ -200,11 +307,31 @@ background:none;
             margin-top: 15px;
         }
     }
+
 }
 @media  screen and (max-width:425px) {
     .title__left .main__btn {
         padding: 19px 15.5px;
     }
+
+   
+}
+@media  screen and (max-width:375px) {
+    .page__contact .tabs__input {
+        margin-bottom: 24px;
+        width: 300px;
+    }
+    .page__contact .tabs__inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page__contact #textarea-contact{
+        width: 300px;
+    }
+   
+}
+
 }
 @media screen and (max-width: 380px){
 .contact__tell-title {
@@ -224,3 +351,4 @@ background:none;
         font-size: 20px;
     }
 }}
+
