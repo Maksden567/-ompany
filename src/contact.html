@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__contact">
+  <div class="site-container">
+    @include('partials/header.html')
+    @include('partials/title.html',{
+        "title":"Contact Us",
+    "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. Mi nibh amet viverra id aliquet neque odio.",
+    "btn":"SEND A MESSAGE",
+    "left-title":"Contact Info",
+    "item1":{
+        "title":"Our Office",
+        "subtitle":"1234 Divi St. #1000, San Francisc, CA 93251"
+    },
+    "item2":{
+        "title":"Open Office Hours",
+        "subtitle":"M-F: 9am – 6pm S-S: 10am – 4pm"
+    },
+    "item3":{
+        "title":"Get in Touch",
+        "subtitle":"constructioninc.com (346) 426-2351"
+    }
+    }
+    
+    )
+    @include('partials/footer.html')
+
+ 
+
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
