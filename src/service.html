@@ -6,7 +6,12 @@
 <body class="page__service">
   <div class="site-container">
     @include('partials/header.html')
-    @include('partials/title4.html')
+    @include('partials/title4.html',{
+      'title':"Framing",
+      "subtitle":'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. ',
+      "btn":"GET A QUOTE",
+      'style':"display:none"
+    })
     <div class="service__subtitles">
       <div class="service__subtitles-block1">
         <p class="service__subtitle">Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis.<br>
