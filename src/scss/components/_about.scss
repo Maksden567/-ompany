@@ -1,0 +1,165 @@
+.page__about{
+    .title4{
+        background: url(../../img/about__png.png);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .main__title::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        height: 220px;
+        width: 10px;
+        background: #FFB400;
+    }
+}
+.about{
+    &__text{
+        @include flex-all-center;
+        flex-direction: column;
+        margin-top: 102px;
+    }
+    &__title{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 25px;
+color: #2A2A2A;
+margin-bottom: 38px;
+    }
+    &__subtitles{
+        display: flex;
+        justify-content: space-between;
+        padding: 38px 150px;
+    }
+    &__subtitle{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.04em;
+color: #666666;
+max-width: 527px;
+
+    }
+&__subtitle2 {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 27px;
+        letter-spacing: 0.04em;
+        color: #666666;
+        max-width: 487px;
+        margin-left: 68px;
+    }
+    &__descr{
+        @include flex-all-center;
+        flex-direction:column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 20px;
+        margin-left: 20px;
+        &-text{
+            font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+max-width: 588px;
+font-size: 30px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #2A2A2A;
+
+        }
+        &-autor{
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 48px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #666666;
+        }
+    }
+}
+.about__text{
+    &-block{
+        width: 185px;
+       @include flex-all-center;
+       flex-direction: column;
+       .line{
+        width: 55px;
+       }
+    }
+    
+}
+@media screen and (max-width:1150px) {
+    .about__subtitles {
+        padding: 38px 60px;
+    }
+}
+@media screen and (max-width:870px) {
+    .page__about .main__title::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        height: 122px;
+        width: 10px;
+        background: #FFB400;
+    }
+}
+@media screen and (max-width:768px) {
+    .about__subtitles {
+        flex-direction: column;
+        align-items:center;
+        padding-top: 20px;
+    }
+    .about__subtitle{
+        text-align: center;
+    }
+    .about__subtitle2 {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:525px) {
+    .page__about .main__title::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        height: 80px;
+        width: 10px;
+        background: #FFB400;
+    }
+    .about__subtitle {
+        font-size: 13px;
+    }
+    .about__subtitles {
+        padding: 15px 30px;
+    }
+    .about__descr{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        &-text{
+        font-size: 22px;
+    }}
+}
+@media screen and (max-width:360px) {
+    .about__subtitle {
+        font-size: 11px;
+    }
+    .about__subtitles {
+        padding: 15px 15px;
+    }
+    .about__descr{
+        margin-bottom: 50px;
+        margin-top: 50px;
+        &-text{
+        font-size: 18px;
+    }}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__about">
+  <div class="site-container">
+    @include('partials/header.html')
+    @include('partials/title4.html',{
+      'title':"About Our Construction Company",
+      "subtitle":'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. ',
+      "btn":"GET A FREE QUOTE",
+      'style':"display:block",
+    })
+    <div class="about__text">
+        <div class="about__text-block">
+        <h2 class="about__title">About us</h2>
+        <div class="line"></div>
+        </div>
+  
+   <div class="about__subtitles">
+    <p class="about__subtitle">Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed nibh dignissim, cursus tellus sit amet, ultrices mauris. Aliquam blandit est in eros elementum, quis vehicula est suscipit.</p>
+    <p class="about__subtitle about__subtitle2">Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
+        Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue non feugiat ligula neque nec felis.</p>
+   </div>
+   </div>
+   
+    @include('partials/get__about.html')
+    <div class="about__descr">
+        <p class="about__descr-text">“Suspendisse neque erat, imperdiet ac non, sollicitudin accumsan lacus. Vestibulum ac ex rutrum, pellentesque purus et, lacinia mi. Nullam maximus lectus libero.”</p>
+        <div class="about__descr-autor">JOHN SMITH – CEO</div>
+    </div>
+    @include('partials/footer.html')
+
+ 
+
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
