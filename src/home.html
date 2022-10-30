@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__home">
+  <div class="site-container">
+    @include('partials/header.html')
+    @include('partials/home__block.html',{
+      "title":"Construction Inc",
+      "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus erat consectetur eu sapien eget, rhoncus consectetur sem.",
+      "button":"VIEW OUR WORK",
+      "style":"background:url('../img/home-bg.png');background-size:cover;background-position:center"
+    })
+    @include('partials/home__items.html')
+    @include('partials/home__block2.html')
+    @include('partials/home__block.html',{
+      "title":"Construction Inc",
+      "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus erat consectetur eu sapien eget, rhoncus consectetur sem.",
+      "button":"VIEW OUR WORK",
+      "style":"background:url('../img/home-bg2.png');background-size:cover;background-position:center;height:714px;margin-bottom:126px;"
+    })
+    @include('partials/client.html')
+    @include('partials/footer.html')
+    <!-- @include('html/h1.html') пример includdede -->
+    <!--  -->
+  </div>
+</body>
+
+</html>

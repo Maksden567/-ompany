@@ -1,0 +1,209 @@
+.home__block-info{
+    height: 730px;
+
+    .get__left-block1{    padding-bottom: 117px;}
+    .get__left-subtitle1 {
+        max-width: 357px;
+        margin-bottom: 25px;
+    }
+    .get__left-inner{
+        background: #F7F7F7;
+    }
+}
+.home__right-title{
+    h3{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 50px;
+color: #FFFFFF;
+    }
+}
+.home__bottom{
+    height: 130px;
+    background: #2A2A2A;
+    button{
+        padding: 24px 36px;
+        border: 5px solid #FFB400;
+        background: none;
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.1em;
+color: #FFB400;
+    }
+}
+.home__block2-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.home__right-wrapper{
+    padding: 31px 69px 34px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home__block2-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.home__block2-left{
+    height: 730px;
+width: 524px;
+background: #FFB400;
+padding: 85px 41px 161px 41px;
+}
+.home__left-item{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    img{
+        width: 81px;
+        max-height: 34px;
+    }
+}
+.home__left-text{
+    margin-left: 13px;
+}
+.home__left-title{
+    h3{
+        font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+color: #2A2A2A;
+    }
+}
+.home__left-title{
+    h6{
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        color: #2A2A2A;
+        
+    }
+}
+.home__left-subtitle{
+    p{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 27px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+}
+@media screen and (max-width:1220px) {
+    .home__block-info{
+        height: 100%;
+    }
+    .home__block2-wrapper{
+        display: flex;
+      flex-direction: column;
+    }
+    .home__block2-left{
+        display: flex;
+    height: 100px;
+    width: 100%;
+}
+}
+@media screen and (max-width:1220px) {
+    .home__block2-left {
+        padding: 31px 41px 161px 41px;
+    }
+   
+    .home__block-info{
+        height: 100%;
+    }
+    .home__block2-wrapper{
+        display: flex;
+      flex-direction: column;
+    }
+    .home__block2-left{
+        display: flex;
+    height: 100px;
+    width: 100%;
+}
+}
+@media screen and (max-width:900px) {
+    .home__left-subtitle p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 27px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+}
+@media screen and (max-width:768px) {
+    .home__left-subtitle p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 27px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+    .home__block2-left{
+        flex-direction: column;
+        
+    }
+    .home__left-item img {
+        width: 33px;
+        max-height: 29px;
+    }
+    .home__block2-left {
+        height: 100%;
+        padding-bottom: 0;
+    }
+    .home__block-info .get__left-block1 {
+        padding-bottom: 0px;
+    }
+    .home__block-info .get__left-subtitle1 {
+        margin-bottom: 0px;
+    }
+    .home__bottom button {
+        padding: 17px 25px;
+    }
+    .home__right-title h3 {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:640px) {
+    .home__right-title h3 {
+        font-size: 20px;
+    }
+.home__bottom button {
+    padding: 8px 5px;
+    font-size: 12px;
+}
+}
+@media  screen and (max-width:526px) {
+    .home__right-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 36px 36px 36px;
+    }
+    .home__bottom button {
+       margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:425px) {
+    .get__left-title {
+
+        font-size: 32px;
+}
+.home__bottom {
+    height: 153px;
+    background: #2A2A2A;
+}
+}

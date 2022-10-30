@@ -134,7 +134,11 @@ color: #2A2A2A;
     }
    
 }
+.title{
+    margin-bottom: 0;
+}
 .contact__tell{
+    background: #fff;
     padding: 58px 115px;
     display: flex;
     align-items:center;
@@ -332,7 +336,7 @@ background:none;
    
 }
 
-}
+
 @media screen and (max-width: 380px){
 .contact__tell-title {
     font-family: "Rubik";
