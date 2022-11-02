@@ -1,14 +1,14 @@
-.services__inner{
+.page__services .services__inner{
     display: flex;
     flex-direction: column;
    }
-.services__items{
+.page__services .services__items{
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
-.services__items1{
+.page__services .services__items1{
     
     display: flex;
     justify-content: flex-start;
@@ -17,7 +17,7 @@
 .services__items-last{
   margin-bottom: 126px;
 }
-.services__item{
+.page__services .services__item{
     width: 1134px;
     background: #F7F7F7;
     &-block{
@@ -97,7 +97,7 @@ color: #FFFFFF;
         background: #fff;
     }
 }
-.services__item-link:before{
+.page__services .services__item-link:before{
     content:"";
     display: inline-block;
     position: absolute;
@@ -120,12 +120,12 @@ color: #FFFFFF;
     }
 }
 @media screen and (max-width:1170px) {
-   .services__items{
+    .page__services .services__items{
     margin-left: 45px;
     margin-top: 40px;
    
    } 
-   .services__item{
+   .page__services .services__item{
     padding: 0;
      width: 100%;
    }
@@ -140,7 +140,7 @@ color: #FFFFFF;
    .services__block-btn {
     padding: 25px 68px;
 }
-.services__item-block {
+.page__services .services__item-block {
     padding-left: 60px;
     padding-top: 100px;
     padding-right: 20px;
@@ -148,24 +148,24 @@ color: #FFFFFF;
 
 }
 @media screen and (max-width:950px) {
-    .services__item-list {
+    .page__services .services__item-list {
         list-style: none;
         margin-right: 50px;
         padding: 0;
     }
-    .services__item-block {
+    .page__services .services__item-block {
         padding-left: 40px;
         padding-top: 100px;
         padding-right: 10px;
     }
 }
 @media screen and (max-width:810px) {
-    .services__block{
+    .page__services .services__block{
          .services__items{
         margin-left: -10px;
         margin-top: 40px;
        } 
-    .services__item-block {
+       .page__services .services__item-block {
         padding-left: 40px;
         padding-top: 100px;
         padding-right: 10px;
@@ -217,12 +217,12 @@ color: #FFFFFF;
     padding-top: 60px;
     padding-right: 10px;
 }
-.services__item-title {
+.page__services .services__item-title {
     font-family: "Rubik";
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 34px;
+    font-size: 40px;
+    line-height: 35px;
     color: #2A2A2A;
     padding-bottom: 38px;
 }

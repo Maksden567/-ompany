@@ -93,7 +93,10 @@ color: #C9C9C9;
             margin-right: 0px;
         }
     }
-    
+    .blog__news {
+        margin-top: 90px;
+        margin-bottom: 39px;
+    }
 }
 @media screen and (max-width:855px) {
     .blog__news{
@@ -138,9 +141,9 @@ color: #C9C9C9;
     }
     .blog__news{
         &-item {
-        margin-bottom: 52px;
+        margin-bottom: 15px;
         width: 290px;
     }
-    
+   
 }
 }
