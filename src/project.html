@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__project">
+  <div class="site-container">
+    @include('partials/header.html')
+
+    @include('partials/title2.html',{
+      "title":"Monarch HQ Project",
+      "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut.",
+      "style":"display:block"
+    })
+    @include('partials/about_project.html')
+
+    @include('partials/projects.html',{
+      "title":"Related Projects",
+      "obj":{
+        "img":"../img/projects-item1.png",
+        "title":"Service Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+        "btn":"LEARN MORE",
+      },
+      "obj2":{
+        "img":"../img/project__img2.png",
+        "title":"Service Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+        "btn":"LEARN MORE",
+      },
+      "obj3":{
+        "img":"../img/project__img3.png",
+        "title":"Service Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+        "btn":"VIEW PROJECT",
+      }
+    })
+    @include('partials/footer.html')
+
+ 
+
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

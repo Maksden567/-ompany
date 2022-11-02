@@ -1,0 +1,216 @@
+.title2{
+    background: url('../../img/title2_bg.png');
+    height: 569px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    h1,h2,h3,h4,h5,h6{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+    }
+    margin-bottom: 35px;
+
+    &__wrapper{
+     padding: 139px 207px 234px 192px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        margin-right: 85px;
+       
+
+        background-repeat: no-repeat;
+        .main__title{
+            position: relative; 
+           margin-bottom: 33px;
+       width: 695px;
+            h1{
+                padding-top: 16px;
+                margin-left: 33px;
+                font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 70px;
+color: #FFFFFF;
+            }
+        }
+        .main__subtitle{
+            max-width:758px;;
+            p{
+                font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+            }
+        }
+    }
+    &__right{
+        padding: 0px 0px;
+       
+
+        .services__title{
+           margin-bottom: 11px;
+            h3{
+                  font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 50px;
+color: #2A2A2A;
+            }
+          
+        }
+        .services__item{
+            display: flex;
+            align-items: center;
+            &-title{
+                margin-top: 0px;
+               
+                h6{
+                     font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+
+line-height: 50px;
+color: #2A2A2A;
+                }
+               
+
+            }
+            &-subtitle{
+                width: 237px;
+                p{
+                    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+                }
+            }
+            .services__text{
+               
+                margin-left: 13px;
+            }
+        }
+    }
+}
+.title2__subtitle{
+    width: 388px;
+    p{
+        font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #FFFFFF;
+    }
+}
+@media screen and (max-width:1240px) {
+    .title2__wrapper{
+        flex-direction: column;
+    }
+    .title2__left{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .title2__wrapper{
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    .title2__left .main__subtitle p {
+        font-size: 14px;
+        line-height: 26px;
+        width: 400px;
+    }
+    .title2__left.main__subtitle {
+        
+    }
+    .title2__left .main__title h1 {
+        padding-top: 16px;
+        margin-left: 33px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 70px;
+        color: #FFFFFF;
+    }
+    
+}
+
+@media  screen and (max-width:615px) {
+    .title2__left .main__subtitle p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .title2__wrapper{
+        flex-direction: column;
+        padding-left: 60px;
+    }
+    .title2__left .main__subtitle p {
+        font-size: 14px;
+        line-height: 26px;
+        width: 350px;
+    }
+    .title2__left .main__title h1 {
+        padding-top: 16px;
+        margin-left: 33px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 70px;
+        color: #FFFFFF;
+    }
+}
+@media  screen and (max-width:515px) {
+    .title2__left .main__subtitle p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 330px;
+    }
+    .title2__wrapper{
+        flex-direction: column;
+        padding-left: 40px;
+    }
+    .title2__left .main__title h1 {
+        margin-left: 22px;
+        font-size: 30px;
+    }
+}
+
+@media  screen and (max-width:425px) {
+    .title2__left .main__subtitle p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .title2__left .main__subtitle p {
+        font-size: 12px;
+        line-height: 20px;
+        width: 290px;
+    }
+    .title2__wrapper{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .title2__left .main__title h1 {
+        margin-left: 22px;
+        font-size: 24px;
+    }
+}

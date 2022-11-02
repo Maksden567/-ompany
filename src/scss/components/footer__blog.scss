@@ -1,0 +1,133 @@
+.contact-inputs-blog{
+    flex-direction: column;
+   
+}
+.form__blog-blog{
+    max-width: 536px;
+}
+.footer-blog{
+    .contact-input{
+        margin-bottom: 15px;
+        margin-right: 20px;
+        max-width: 536px;
+        height: 53px;
+        padding-left: 18px;
+    
+}
+.contact__title {
+    margin-bottom: 18px;
+}
+.line{
+    margin-bottom: 18px;
+}
+.form__button button {
+    border: 4px solid #FFFFFF;
+    width: 100%;
+    background: none;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 12px 43px;
+}
+
+}
+@media screen and (max-width:1105px) {
+    .footer-blog .contact__title {
+        margin-bottom: 18px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 25px;
+        color: #2A2A2A;
+    }
+}
+@media screen and (max-width:960px) {
+    .footer-blog .contact-inputs-blog{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-blog .footer__wrapper{
+      flex-direction: column;
+    }
+    .footer-blog .footer__left {
+        
+        padding-left: 30px;
+        padding-right: 92px;
+        padding-bottom: 58px;
+        padding-top: 79px;
+        width:100%;
+        background: #FFB400;
+    }
+    .footer-blog .form__button button {
+        width: 536px;
+    }
+   .footer-blog .footer__right {
+    width: 100%;
+}
+.footer-blog .footer__right{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer-blog .footer__icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-blog .footer__bottom {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.footer-blog .footer__bottom{
+    margin-left: 0;
+}
+
+}
+@media screen and (max-width:768px) {
+    .footer-blog .contact-inputs-blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-blog .form__button button {
+        width: 100%;
+    }
+    .footer-blog .footer__point h4 {
+        text-align: center;
+        padding-left: 6px;
+        max-width: 342px;
+    }
+}
+@media screen and (max-width:515px) {
+    .footer .contact-input {
+        width: 280px;
+        height: 42px;
+    }
+    .footer-blog .contact__title {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:425px) {
+    .contact-input::placeholder{
+        font-size: 15px;
+    }
+    .footer-blog .footer__left{
+        padding-left: 20px;
+    }
+    .footer-blog .contact__title {
+        width: 280px;
+        font-size: 24px;
+    }
+     .footer-blog .footer__point h4 {
+        text-align: center;
+        padding-left: 6px;
+        max-width: 270px;
+    }
+    .footer-blog .footer__bottom{
+        margin-right: 0;
+    }
+}

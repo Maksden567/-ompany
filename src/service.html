@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__service">
+  <div class="site-container">
+    @include('partials/header.html')
+    @include('partials/title4.html',{
+      'title':"Framing",
+      "subtitle":'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. ',
+      "btn":"GET A QUOTE",
+      'style':"display:none"
+    })
+    <div class="service__subtitles">
+      <div class="service__subtitles-block1">
+        <p class="service__subtitle">Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed nibh dignissim, cursus tellus sit amet, ultrices mauris. Aliquam blandit est in eros elementum, quis vehicula est suscipit. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. </p></div>
+      <div class="service__subtitles-block2">
+         <p class="service__subtitle">Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat, consectetur eu sapien eget rhoncus consectetur sem.
+          Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue non feugiat ligula neque nec felis.
+          
+          </p>
+          <p class="service__subtitle service__subtitle3"> Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum.</p>
+      </div>
+       
+    </div>
+    @include('partials/about__process.html')
+    @include('partials/projects.html',{
+      "title":"Related Projects",
+      "obj":{
+        "img":"../img/portfolio__img1.png",
+        "title":"Service Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+        "btn":"LEARN MORE",
+      },
+      "obj2":{
+        "img":"../img/portfolio__img2.png",
+        "title":"Service Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+        "btn":"LEARN MORE",
+      },
+      "obj3":{
+        "img":"../img/portfolio__img3.png",
+        "title":"Service Title",
+        "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
+        "btn":"VIEW PROJECT",
+      }
+    })
+    @include('partials/tabs.html',{
+      "title":"F.A.Q.",
+        "btn":"ASK A QUESTION ",
+    })
+    @include('partials/footer.html')
+
+ 
+
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>
