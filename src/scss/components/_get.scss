@@ -3,10 +3,10 @@
     &__text {
         @include flex-all-sb;
         max-width: 1011px;
-
+        padding: 15px;
         margin-left: 126px;
         padding-bottom: 34px;
-
+        padding-top: 34px;
     }
 
     &__title {
@@ -30,6 +30,7 @@
         letter-spacing: 0.1em;
         color: #FFB400;
         border: 5px solid #FFB400;
+        background: none;
     }
 
     &__wrapper {
@@ -175,6 +176,9 @@
         margin-left: 50px;
         
     }
+    .get__text{
+        margin-left: 0;
+    }
     .get__left-inner {
             padding-left: 70px;
             padding-top: 116px;
@@ -278,6 +282,7 @@
         line-height: 40px;
         margin: 0;
         color: #2A2A2A;
+        margin-bottom: 15px;
     }
 }
 @media screen and (max-width:375px) {

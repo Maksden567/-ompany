@@ -3,33 +3,39 @@
 
 @include('partials/head.html')
 
-<body class="page__project">
+<body class="page__services">
   <div class="site-container">
     @include('partials/header.html')
-
-    @include('partials/title2.html',{
-      "title":"Monarch HQ Project",
-      "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut.",
-      "style":"display:block"
+    @include('partials/title4.html',{
+      'title':"Our Construction Services",
+      "subtitle":'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut. ',
+      "btn":"GET A FREE QUOTE",
+      'style':"display:block",
     })
-    @include('partials/about_project.html')
-
+    <div class="get">
+       <div class="get__text">
+      <h2 class="get__title">Get a Quote For Your Project</h2>
+      <button class="get__btn">FREE QUOTE</button>
+  </div>
+    </div>
+   
+    @include('partials/services__block.html')
     @include('partials/projects.html',{
-      "title":"Related Projects",
+      "title":"Latest Projects",
       "obj":{
-        "img":"../img/projects-item1.png",
+        "img":"../img/portfolio__img4.png",
         "title":"Service Title",
         "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
         "btn":"LEARN MORE",
       },
       "obj2":{
-        "img":"../img/project__img2.png",
+        "img":"../img/project__item-img.png",
         "title":"Service Title",
         "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
         "btn":"LEARN MORE",
       },
       "obj3":{
-        "img":"../img/project__img3.png",
+        "img":"../img/portfolio__img2.png",
         "title":"Service Title",
         "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum. ",
         "btn":"VIEW PROJECT",
